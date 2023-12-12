@@ -1,0 +1,11 @@
+{% extends "../base.html" %}
+{%load static%}
+
+{% block content %}
+<div class="container mt-3">
+    <span>{{ lesson.upload_date }}</span>
+    <div>
+        {{ text }}
+    </div>
+</div>
+{% endblock content %}
