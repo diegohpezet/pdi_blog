@@ -106,7 +106,7 @@ def holaMundo(request):
     # En este caso la vista es solamente una respuesta http, pero 
     # tranquilamente podría ser un archivo html renderizado, eso 
     # se verá más adelante
-    return HttpResponse("Hola 7mo!")
+    return HttpResponse("Hola Mundo.")
 ```
 
 Luego, para incluirlos en el proyecto, nos dirijimos a la carpeta del proyecto y dentro del archivo 'urls.py':
@@ -124,6 +124,6 @@ urlpatterns = [
 
 Al iniciar el proyecto se va a mostrar lo siguiente:
 
-<img src="{% static 'blog/img/bg-desktop.jpg' %}" alt="Demo" />
+<img src="/static/blog/img/holaMundoDjango.png" alt="Hola mundo en Django" />
 
 
