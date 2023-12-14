@@ -4,9 +4,19 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+#content {
+    min-height: 85vh;
+    margin-bottom: 25px;
+}
+
 pre {
     background-color: rgb(27, 27, 27);
     border-radius: 5px;
     color: #fff;
     padding: 15px;
+}
+
+footer {
+    height: 5vh;
+    color: #fff;
 }
