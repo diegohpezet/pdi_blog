@@ -8,5 +8,7 @@ urlpatterns = [
     path('clases/<int:id>', lesson),
     # Tasks
     path('tareas/', tasksList),
-    path('tareas/<int:id>', task)
+    path('tareas/<int:id>', task),
+    # Temas
+    path('temas/', topics)
 ]

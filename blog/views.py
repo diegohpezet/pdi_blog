@@ -1,12 +1,13 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Lesson, Task
 import markdown
 import datetime
 
 # Create your views here.
 def index(request):
-    return render(request,'index.html')
+    return redirect(lessonsList)
 
+# Clases
 def lessonsList(request):
     lessons = list(Lesson.objects.values())
     return render(
@@ -27,6 +28,7 @@ def lesson(request, id):
         }
     )
 
+# Tareas
 def tasksList(request):
     tasks = list(Task.objects.values())
     return render(
@@ -49,3 +51,7 @@ def task(request, id):
             "text": task.get_markdown
         }
     )
+
+# Listado de temas
+def topics(request):
+    return render(request,"blog/topics.html")
