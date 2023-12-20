@@ -14,6 +14,8 @@ En este ejemplo "Headers" refiere a la dirección sobre la cual se está haciend
 
 ## Ejemplos de programación del lado servidor
 
+<hr />
+
 ### E-commerce
 Supongamos que queremos crear un E-commerce en la web. Si tenemos un catálogo de 100 productos sería muy mala idea crear un archivo HTML para cada uno de ellos. 
 
