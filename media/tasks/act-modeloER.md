@@ -8,7 +8,7 @@ topic: Proyecto
 
 **Actividad**: Crear un modelo entidad relación para cada uno de los siguientes escenarios
 
-1. **Farmacia**
+- **Farmacia**
 
 Debemos diseñar un sistema para registrar las farmacias en diferentes ciudades de nuestro país.
 
@@ -21,7 +21,7 @@ Cada farmacia, a su vez, vende varios medicamentos y un medicamento se vende en 
 Cada farmacia vende un medicamento a un precio determinado, que no necesariamente es el mismo en diferentes farmacias.
 Como último requerimiento, un medicamento puede complementar a otros medicamentos, pero sabemos que cada medicamento puede ser complementado por un solo medicamento.
 
-2. **Sistema de Delivery “La Flauta Dulce”**
+- **Sistema de Delivery “La Flauta Dulce”**
 
 La panadería y confitería “La Flauta Dulce” está organizando el delivery a sus clientes. Cada repartidor tiene asignada una sola zona (puede haber más de un repartidor por zona). Los repartidores tienen asignados varios clientes. Cada cliente puede ser atendido por más de un repartidor, o por ninguno. Cada repartidor usa una sola moto, y una moto es solamente usada por un repartidor. 
 
@@ -29,7 +29,7 @@ De cada repartidor, sabemos que trabaja para una única empresa en la que posee 
 
 Por último, sabemos que un repartidor puede reemplazar solo a otro, y a su vez un repartidor debe registrar por quienes es reemplazado.
 
-3. **Lavadero de Pulgas "La Pulga Limpia"**
+- **Lavadero de Pulgas "La Pulga Limpia"**
 
 Un lavadero de Perros solicita un modelo de datos para un sistema de gestión de lavados. Los perros pertenecen a clientes de los cuales conocemos su dni, nombre y apellido, teléfono y domicilio.
 

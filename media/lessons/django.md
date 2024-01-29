@@ -1,3 +1,9 @@
+---
+title: Django
+date: ¿?
+topic: Librerias
+---
+
 # Django
 
 Django es un framework de Python que permite crear aplicaciones web. Permite comunicar aplicaciones con bases de datos, crear interfaces HTML, tener un panel de administración para la app, etc. Además cuenta con funcionalidades comunes ya implementadas. El fin de esto es que el desarrollador se enfoque en desarrollar funcionalidades específicas de su proyecto en vez de concentrarse en reinventar el login, los formularios y demás.

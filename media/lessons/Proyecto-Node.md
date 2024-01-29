@@ -1,3 +1,9 @@
+---
+title: Creación de proyecto Node.js
+date: ¿?
+topic: Diseño
+---
+
 # Creación de proyecto Node.js
 
 Para crear un proyecto de Node, tras haberlo instalado, deberemos seguir los siguientes pasos **dentro de una carpeta vacía**

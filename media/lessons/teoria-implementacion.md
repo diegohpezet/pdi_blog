@@ -1,3 +1,9 @@
+---
+title: Implementación
+date: ¿?
+topic: Implementación
+---
+
 # Implementacion de un Sistema Computacional
 
 La implementación de un sistema computacional se refiere al proceso de llevar a cabo y poner en práctica un sistema de software para que cumpla con sus objetivos y funcione de manera efectiva. Es decir, refiere a lograr que el programa pueda finalmente ejecutarse como se espera.

@@ -1,3 +1,9 @@
+---
+title: Programación del lado del servidor
+date: ¿?
+topic: Conceptos Base
+---
+
 # Programación del lado del servidor
 
 Muchos sitios web ejecutan código en el servidor cuando requieren distintos datos. 
