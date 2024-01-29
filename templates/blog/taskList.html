@@ -8,8 +8,8 @@
       {% for task in tasks %}
       <li class="list-group-item">
         <div class="ms-2 me-auto">
-          <div class="fw-bold"><a href="./{{task.id}}">{{task.title}}</a></div>
-          {{task.upload_date}}
+          <div class="fw-bold"><a href="./{{task.filename}}">{{task.title}}</a></div>
+          {{task.date}}
         </div>
       </li>
       {% endfor %}

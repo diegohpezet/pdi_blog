@@ -1,7 +1,9 @@
-from django.shortcuts import render, redirect
-from .models import Lesson, Task
+import os
 import markdown
-import datetime
+from django.shortcuts import render, redirect
+from pathlib import Path
+from .models import Lesson, Task
+from .utils import *
 
 # Create your views here.
 def index(request):
@@ -9,28 +11,27 @@ def index(request):
 
 # Clases
 def lessonsList(request):
-    lessons = list(Lesson.objects.values())
-    return render(
-        request, "blog/lessonList.html", {
-            "title": "Clases - PDI", 
-            "lessons": lessons
-        }
-    )
+    lessons = get_list_of_files('lessons')
+    
+    return render(request, "blog/lessonList.html", {
+        "title": "Clases - PDI",
+        "lessons": lessons
+    })
 
-def lesson(request, id):
-    lesson = Lesson.objects.get(id=id)
-
+def lesson(request, title):
+    content = get_file_content('lessons', title)
+    data = get_file_metadata('lessons', title)
+    
     return render(
         request, "blog/lesson.html", {
-            "title": lesson.title, 
-            "lesson": lesson, 
-            "text": lesson.get_markdown
+            "data": data,
+            "content": content
         }
     )
 
 # Tareas
 def tasksList(request):
-    tasks = list(Task.objects.values())
+    tasks = get_list_of_files('tasks')
     return render(
         request, "blog/taskList.html", {
         "title": "Tareas - PDI",
@@ -38,17 +39,14 @@ def tasksList(request):
         }
     )
 
-def task(request, id):
-    task = Task.objects.get(id=id)
-    with open(f"{task.file}", "r", encoding="utf-8") as file:
-        txt = file.read()
-    html = markdown.markdown(txt, extensions=['extra', 'markdown.extensions.fenced_code'])
+def task(request, title):
+    content = get_file_content('tasks', title)
+    data = get_file_metadata('tasks', title)
     
     return render(
         request, "blog/task.html", {
-            "title": task.title, 
-            "task": task, 
-            "text": task.get_markdown
+            "data": data,
+            "content": content
         }
     )
 

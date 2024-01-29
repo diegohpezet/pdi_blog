@@ -5,10 +5,10 @@ urlpatterns = [
     path('', index),
     # Lessons
     path('clases/', lessonsList),
-    path('clases/<int:id>', lesson),
+    path('clases/<str:title>', lesson),
     # Tasks
     path('tareas/', tasksList),
-    path('tareas/<int:id>', task),
+    path('tareas/<str:title>', task),
     # Temas
-    path('temas/', topics)
+    path('temas/', topics),
 ]
