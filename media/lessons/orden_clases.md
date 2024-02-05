@@ -4,14 +4,14 @@ title: Orden de las clases
 
 # Orden de las clases
 
-- Introducción a Sistemas Computacionales
-- Etapas de un proyecto - Herramientas del desarrollador
-- Proyecto - Modelo E/R
+- [x] Introducción a Sistemas Computacionales
+- Etapas de un proyecto
+- [x] Proyecto - Modelo E/R
 - Conceptos Clave - Bases de datos
 - Conceptos Clave - Normalización de BD *
 - Conceptos Clave - Diferencias entre el desarrollo Front/Back y uso
-- Lenguaje de Programación - Repaso, librerias * 
-- Lenguaje de Programación - POO *
+- [x] Lenguaje de Programación - Repaso, librerias * 
+- [x] Lenguaje de Programación - POO *
 
 (Para este punto se espera que tengan decidido su proyecto y los grupos)
 
