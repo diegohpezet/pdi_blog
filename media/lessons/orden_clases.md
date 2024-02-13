@@ -19,6 +19,9 @@ title: Orden de las clases
 
 - [ ] Introduccion a Git/Github para trabajo en los grupos, documentación dentro de los repos
 - [ ] Diseño de proyecto - Node * 
+  - [x] Instalación Nodejs y primeros pasos
+  - [ ] Rutas - Tipos de solicitudes - Parámetros
+  - [ ] Modelos - Base de datos
 - [ ] Testing
 
 (Los alumnos trabajan en sus proyectos)
