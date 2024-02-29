@@ -55,7 +55,7 @@ class Rectangulo:
         return area
 ```
 En este ejemplo:
-Se define una clase llamada #Rectangulo#.
+Se define una clase llamada *Rectangulo*.
 El constructor (__init__) inicializa los atributos de la clase. En este caso, inicializamos los atributos base y altura.
 Tabien se definio otro método llamado calcular_area, que calcula el área del rectángulo multiplicando la base por la altura.
 Dentro de calcular_area, utilizamos self.base y self.altura para acceder a los atributos de la clase.
