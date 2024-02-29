@@ -1,7 +1,7 @@
 ---
 title: Clases y Objetos
 topic: Conceptos Base
-date: ¿?
+date: 2024/18/04
 ---
 
 # Clases y Objetos
@@ -37,4 +37,36 @@ producto2 = Producto("Fideos",1000,"Knorr")
 
 print(producto1.nombre) # Arroz
 print(producto2.marca) # Knorr
+```
+
+## Metodos
+Un método en programación es una función asociada a un objeto específico. En POO los métodos son funciones que pertenecen a una clase y pueden acceder y modificar los atributos de esa clase. Los métodos definen el comportamiento de los objetos creados a partir de esa clase. 
+Por ejemplo: 
+Supongamos que estamos creando una clase llamada #Rectangulo# para representar rectángulos y queremos calcular su área:
+
+```py
+class Rectangulo:
+    def __init__(self, base, altura):
+        self.base = base
+        self.altura = altura
+
+    def calcular_area(self):
+        area = self.base * self.altura
+        return area
+```
+En este ejemplo:
+Se define una clase llamada #Rectangulo#.
+El constructor (__init__) inicializa los atributos de la clase. En este caso, inicializamos los atributos base y altura.
+Tabien se definio otro método llamado calcular_area, que calcula el área del rectángulo multiplicando la base por la altura.
+Dentro de calcular_area, utilizamos self.base y self.altura para acceder a los atributos de la clase.
+Ahora, podemos crear objetos de la clase Rectangulo y utilizar su método calcular_area para calcular el área del rectángulo. Por ejemplo:
+
+```py
+# Crear un objeto de la clase Rectangulo
+mi_rectangulo = Rectangulo(5, 10)
+
+# Utilizar el método calcular_area para obtener el área del rectángulo
+# Es una buena practica utilizar una variable para guardar datos especificos. 
+area_del_rectangulo = mi_rectangulo.calcular_area()
+print("El área del rectángulo es:", area_del_rectangulo)
 ```
