@@ -1,7 +1,7 @@
 ---
 title: Planificación de Proyecto
 topic: Proyecto
-date: ¿?
+date: 2024-03-21
 ---
 
 # Planificación de Proyecto de Software

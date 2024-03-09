@@ -1,6 +1,6 @@
 ---
 title: Programación Frontend/Backend
-date: ¿?
+date: 2024-04-11
 topic: Conceptos Base
 ---
 

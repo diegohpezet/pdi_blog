@@ -1,7 +1,7 @@
 ---
 title: Sistemas Computacionales
 topic: Conceptos Base
-date: ¿?
+date: 2024-03-14
 ---
 
 # Introducción a Sistemas Computacionales

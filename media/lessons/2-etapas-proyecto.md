@@ -1,6 +1,6 @@
 ---
 title: Etapas de un proyecto de software
-date: 2024-03-07
+date: 2024-03-21
 topic: Conceptos Base
 ---
 

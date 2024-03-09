@@ -1,6 +1,6 @@
 ---
 title: Creación de proyecto Node.js
-date: ¿?
+date: 2024-05-09
 topic: Diseño
 ---
 
@@ -44,24 +44,3 @@ app.get('/productos', (req, res) => {
   res.send('Lista de productos');
 });
 ```
-
-## Motor de vistas y plantillas
-
-Un motor de vistas es una herramienta que permite combinar datos dinámicos con una estructura estática (plantilla) para generar contenido HTML dinámico. Estas plantillas se utilizan comúnmente en aplicaciones web para renderizar páginas con información variable.
-
-Hay varios motores de vistas disponibles para Node.js, nosotros usaremos **EJS**
-
-Para poder mostrar el contenido de una plantilla deberemos:
-- Establecer el motor de las plantllas dentro de la aplicación. ```app.set('view engine', 'ejs')```
-- Crear una carpeta 'views' donde estarán ubicados nuestros archivos .ejs
-- Crear un archivo .ejs
-- Crear una ruta que renderice dicha plantilla:
-    ```js
-    app.get('/ruta', (req,res) => {
-        res.render("<archivo>")
-    })
-    ```
-
-Al acceder a la ruta entonces se mostrará el contenido dentro del archivo.ejs
-
-Dentro del archivo de la vista se puede variar el contenido que se muestra pasando datos desde nuestra lógica construida en Javascript.

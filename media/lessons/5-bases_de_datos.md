@@ -1,6 +1,6 @@
 ---
 title: Bases de Datos
-date: ¿?
+date: 2024-04-04
 topic: Conceptos Clave
 ---
 
