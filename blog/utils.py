@@ -1,5 +1,6 @@
 import os
 import markdown
+from datetime import datetime
 from pathlib import Path
 from django.utils.safestring import mark_safe
 
@@ -19,7 +20,22 @@ def get_list_of_files(type):
         md.Meta['filename'] = filename[:-3]
         files.append(md.Meta)
 
-    return files
+    # Store lessons that are ready to display
+    available_files = []
+    current_date = datetime.now().date()
+
+    for file in files:
+        datetime_object = datetime.strptime(file['date'], "%Y-%m-%d")
+        date_object = datetime_object.strftime("%Y-%m-%d")
+        if date_object < str(current_date):
+            print(file)
+            available_files.append(file)
+
+    # Sort lessons by date
+    sorted_files = sorted(available_files, key=lambda x:x['date'])
+    
+
+    return sorted_files
 
 def get_file_content(type, title):
     directory = f"media/{type}/"

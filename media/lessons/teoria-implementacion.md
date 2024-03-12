@@ -1,6 +1,6 @@
 ---
 title: Implementación
-date: ¿?
+date: 2024-12-12
 topic: Implementación
 ---
 

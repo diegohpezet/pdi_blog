@@ -1,6 +1,6 @@
 ---
 title: Django
-date: ¿?
+date: 2024-12-12
 topic: Librerias
 ---
 
