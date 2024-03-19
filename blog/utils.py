@@ -27,7 +27,7 @@ def get_list_of_files(type):
     for file in files:
         datetime_object = datetime.strptime(file['date'], "%Y-%m-%d")
         date_object = datetime_object.strftime("%Y-%m-%d")
-        if date_object < str(current_date):
+        if date_object <= str(current_date):
             print(file)
             available_files.append(file)
 
