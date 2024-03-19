@@ -1,7 +1,7 @@
 ---
 title: Repaso de programación
-topic: Conceptos Base ¿?
-date: ¿?
+topic: Conceptos Base
+date: 2024-04-18
 ---
 # Repaso de programación
 

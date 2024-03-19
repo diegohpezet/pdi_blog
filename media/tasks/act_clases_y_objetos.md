@@ -1,7 +1,7 @@
 ---
 title: Clases y Objetos
 topic: Conceptos Base
-date: ¿?
+date: 2024-04-18
 ---
 
 # Clases y Objetos - Actividad
