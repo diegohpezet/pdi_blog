@@ -1,6 +1,6 @@
 ---
 title: Modelo Entidad-Relación
-date: 2024-03-14
+date: 2024-04-04
 topic: Proyecto
 ---
 
