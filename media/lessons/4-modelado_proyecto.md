@@ -10,7 +10,7 @@ En el mundo del desarrollo de software, el modelado juega un papel fundamental e
 
 El Modelado de Entidad-Relación (MER) es una técnica utilizada para diseñar bases de datos relacionales. En este enfoque, identificamos entidades (objetos o conceptos del mundo real), atributos (propiedades de las entidades) y relaciones (asociaciones entre entidades)
 
-<img src="/static/blog/img/modeloER-ejemplo2.png" alt="Modelo de farmacia en línea" />
+<img src="/static/blog/img/modeloER-ejemplo2.jpg" alt="Modelo de farmacia en línea" />
 
 ## Vistas -> Mockups
 
