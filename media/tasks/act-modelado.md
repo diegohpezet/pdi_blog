@@ -1,5 +1,5 @@
 ---
-title: Modelo Entidad-Relacion
+title: Modelado de Aplicación
 date: 2024-04-04
 topic: Proyecto
 ---
