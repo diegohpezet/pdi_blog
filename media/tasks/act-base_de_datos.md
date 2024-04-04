@@ -1,6 +1,6 @@
 ---
 title: Bases de datos
-date: 2024-04-04
+date: 2024-04-11
 topic: Proyecto
 ---
 
