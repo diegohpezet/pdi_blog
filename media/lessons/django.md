@@ -1,7 +1,5 @@
 ---
 title: Django
-date: 2024-12-12
-topic: Librerias
 ---
 
 # Django

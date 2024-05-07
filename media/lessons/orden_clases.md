@@ -13,7 +13,7 @@ date: 2024-12-12
 - [ ] Diseño de proyecto - Moqups
 - [x] Conceptos Clave - Bases de datos
 - [ ] Conceptos Clave - Redundancia de BD *
-- [ ] Conceptos Clave - Diferencias entre el desarrollo Front/Back y uso
+- [x] Conceptos Clave - Diferencias entre el desarrollo Front/Back y uso
 - [x] Lenguaje de Programación - Repaso, POO * 
 - [x] Lenguaje de Programación - Librerias *
 
