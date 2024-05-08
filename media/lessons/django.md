@@ -40,14 +40,13 @@ Un proyecto es un sistema compuesto por varias aplicaciones, mientras que las ap
 
 Un ejemplo podría ser Facebook, que en este caso sería un proyecto. Adentro puede contener una aplicación que maneje usuarios, una que maneje grupos, una que maneje posts, etc etc.
 
-*La información de las aplicaciones se pueden comunicar entre sí para lograr el objetivo deseado*
+_La información de las aplicaciones se pueden comunicar entre sí para lograr el objetivo deseado_
 
 ## Estructura de un proyecto
 
-Dentro de la carpeta del proyecto, hay ciertos archivos que nos importan. 
+Dentro de la carpeta del proyecto, hay ciertos archivos que nos importan.
 
 - **settings.py**: almacena configuraciones del proyecto
-
 
 ```py
 DEBUG = True # Indica si estamos en modo desarrollo o no
@@ -94,7 +93,7 @@ urlpatterns = [
 
 ## Creación de una aplicacion
 
-**Recordar que una aplicación es una parte de un proyecto**. Para crear una aplicación dentro del proyecto ejecutamos la sentencia 
+**Recordar que una aplicación es una parte de un proyecto**. Para crear una aplicación dentro del proyecto ejecutamos la sentencia
 
 ```
 django-admin startapp [nombre-app]
@@ -107,8 +106,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def holaMundo(request):
-    # En este caso la vista es solamente una respuesta http, pero 
-    # tranquilamente podría ser un archivo html renderizado, eso 
+    # En este caso la vista es solamente una respuesta http, pero
+    # tranquilamente podría ser un archivo html renderizado, eso
     # se verá más adelante
     return HttpResponse("Hola Mundo.")
 ```
@@ -129,5 +128,3 @@ urlpatterns = [
 Al iniciar el proyecto se va a mostrar lo siguiente:
 
 <img src="/static/blog/img/holaMundoDjango.png" alt="Hola mundo en Django" />
-
-
