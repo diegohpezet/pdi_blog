@@ -8,19 +8,19 @@ date: 2024-12-12
 
 - [x] Introducción a Sistemas Computacionales
 - [x] Etapas de un proyecto
-- [x] Proyecto - Planificación *
+- [x] Proyecto - Planificación \*
 - [x] Proyecto - Modelo E/R
 - [ ] Diseño de proyecto - Moqups
 - [x] Conceptos Clave - Bases de datos
-- [ ] Conceptos Clave - Redundancia de BD *
-- [ ] Conceptos Clave - Diferencias entre el desarrollo Front/Back y uso
-- [x] Lenguaje de Programación - Repaso, POO * 
-- [x] Lenguaje de Programación - Librerias *
+- [ ] Conceptos Clave - Redundancia de BD \*
+- [x] Conceptos Clave - Diferencias entre el desarrollo Front/Back y uso
+- [x] Lenguaje de Programación - Repaso, POO \*
+- [x] Lenguaje de Programación - Librerias \*
 
 (Para este punto se espera que tengan definido su proyecto y los grupos)
 
 - [ ] Introduccion a Git/Github para trabajo en los grupos, documentación dentro de los repos
-- [ ] Diseño de proyecto - Node * 
+- [ ] Diseño de proyecto - Node \*
   - [x] Instalación Nodejs y primeros pasos
   - [ ] Rutas - Tipos de solicitudes - Parámetros
   - [ ] Modelos - Base de datos
@@ -31,11 +31,13 @@ date: 2024-12-12
 - [ ] Implementación: Hosting
 - [ ] Perfil Programador
 
-## Metodologias 
+## Metodologias
+
 - Proyecto desde temprano
 - "Clases grises" -> Revision por grupo de trayectoria
 
 ## Calendario
+
 - 14/3: Introducción
 - 21/3: Etapas de un proyecto, Planificación
 - 28/3: Moqups
