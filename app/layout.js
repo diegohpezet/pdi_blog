@@ -1,5 +1,5 @@
-import './globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './globals.css';
 import BootstrapClient from '@/components/BootstrapClient';
 import Sidebar from '@/components/Sidebar';
 import Navbar from '@/components/Navbar';
